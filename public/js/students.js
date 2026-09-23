@@ -9,7 +9,7 @@ let editingId = null;
       <div class="toolbar" style="margin-bottom:0;">
         <input type="text" id="search" placeholder="Search name or roll number…">
         <input type="text" id="filter-dept" placeholder="Department">
-        <input type="number" id="filter-year" placeholder="Year" min="1" max="6" style="width:90px;">
+        <input type="number" id="filter-year" placeholder="Year" min="2000" max="2050" style="width:90px;">
         <button class="btn btn-outline btn-sm" id="apply-filters">Filter</button>
       </div>
       <button class="btn btn-primary" id="add-student-btn">+ Add Student</button>
